@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Головна сторінка</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="Логотип" width="100">
+    <h1>Ласкаво просимо!</h1>
+    <a href="/message">Залишити повідомлення</a> |
+    <a href="/read">Переглянути повідомлення</a>
+</body>
+</html>
